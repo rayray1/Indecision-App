@@ -1,0 +1,23 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "description": "A Reactjs Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayray1/Indecision-App.git"
+  },
+  "author": "Raymond Rupiah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayray1/Indecision-App/issues"
+  },
+  "homepage": "https://github.com/rayray1/Indecision-App#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1"
+  }
+}
