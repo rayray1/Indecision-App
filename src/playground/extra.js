@@ -87,3 +87,23 @@ parseInt(num, 10)
 isNaN('a' + 3) // Evaluates to true
 
 isNaN(2 + 3) // Evaluates to false
+
+
+
+import validator from 'validator'
+console.log(validator.isEmail('test@gmail.com'))
+
+
+
+
+import './utils.js'
+import isSenior, { isAdult, canDrink } from './person.js'
+import subtract, { square, add } from './utils.js'
+
+console.log(square(4))
+console.log(add(50, 50))
+console.log(subtract(100, 50))
+
+console.log(isAdult(20))
+console.log(canDrink(14))
+console.log((isSenior(25)))
