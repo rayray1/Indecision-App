@@ -1,20 +1,17 @@
 import React from 'react'
 
-// Stateless Option component
-const Option = (props) => {
-    return (
-        <div>
-            {props.optionText}
-            <button
-                onClick={(e) => {
-                    props.handleDeleteOption(props.optionText)
-                }}
-            >
-                remove
+// Stateless Option component - Implicitly returning jsx(not using return keyword)
+const Option = (props) => (
+    <div>
+        {props.optionText}
+        <button
+            onClick={(e) => {
+                props.handleDeleteOption(props.optionText)
+            }}
+        >
+            remove
             </button>
-        </div>
-    )
-
-}
+    </div>
+)
 
 export default Option;
