@@ -85,7 +85,7 @@ export default class IndecisionApp extends React.Component {
     }
 
     render() {
-        const subtitle = 'Put you life in the hands of an App'
+        const subtitle = 'Put your life in the hands of an App'
 
         return (
             <div className="dark-blue">
